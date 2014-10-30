@@ -1,0 +1,22 @@
+
+# PEOPLE
+
+Designer: Pedro Santos
+E-mail: p.santos@me.com
+Location: Ottawa, Canada
+Website: www.pedrosantos.info
+Github: .....
+Twitter: ...
+Behance:....
+
+# THANKS
+
+Downloaded Code Thing © Some Person: http://codething.com
+Stock Image © Another Person: http://gettyimages.com
+
+# TOOLS
+
+Sublime Text
+GitHub
+Photoshop
+Hover.com 
