@@ -13,6 +13,8 @@ html{
 	-text-size-adjust: 100%;
 }
 
+/* ======= COMMON CSS ======= */
+
 html, body{
 	font-family: 'Lato', sans-serif;
 	margin: 0;
@@ -24,6 +26,19 @@ img {
 	width: 100%;
 }
 
+h2{
+	text-align:center;
+	color: #536988;
+}
+
+p {
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 150%;
+}
+
+
+/* ======= HEADER SECTION ======= */
 
 header {
 	padding: 1rem 0 0;
@@ -38,25 +53,25 @@ header {
 	position: absolute;
 }
 
-h2{
-	text-align:center;
-}
+/* ======= BANNER SECTION ======= */
 
 section {
-	padding: 9rem 0;
+	padding: 6rem 0;
 	text-align:center;
 	color:#FFFFFF;
-}
-
-.sun {
-	width: 100px;
-	text-align:center;
 }
 
 .sun-section {
 	background: transparent url(../images/mars-pano.jpg) no-repeat center top;
 	background-size: cover;
 }
+	
+.sun {
+	width: 100px;
+	text-align:center;
+}
+
+/* ======= ABOUT SECTION ======= */
 
 .about{
 	text-align:center;
@@ -78,6 +93,8 @@ section {
 	color:#fff;
 }
 
+/* ======= PORTFOLIO SECTION ======= */
+
 .portfolio{
 	padding: 4rem 0%;
 }
@@ -87,26 +104,32 @@ section {
 }
 
 ul {
-list-style-type: none;
-padding: 0;
+	list-style-type: none;
+	padding: 0;
 }
 
-h2 {
-	color: #536988;
+.image-list{
+		overflow: auto;
 }
 
-.main p{
-	font-size: 1rem;
-	font-weight: 300;
-	line-height: 150%;
+.image-list li{
+	margin-left: 4%;
+	width: 45%;
+	float: left;
+}	
+
+.image-list li img{
+	margin:1rem 5%;
+	width: 90%;
 }
 
-.copyright {
-	text-align: center;
-	margin: 1rem auto;
-	font-size: 0.75rem;
-	font-weight: 200;
+/* ======= SERVICES SECTION ======= */
+
+.box img{
+	width: 30%;
 }
+
+/* ======= FOOTER SECTION ======= */
 
 .footer {
 	background-color:#333;
@@ -115,17 +138,15 @@ h2 {
 	color: #fff;
 	text-align:center;
 }
-
-.image-list li img{
-	margin:1rem 5%;
-	width: 90%;
+.copyright {
+	text-align: center;
+	margin: 1rem auto;
+	font-size: 0.75rem;
+	font-weight: 200;
 }
 
-.box img{
-	width: 30%;
-}
 
-/* TRANSITIONS */
+/* ======= TRANSITIONS ======= */
 
 .ease-all{
 	-webkit-transition: all 350ms ease-in-out;
@@ -167,8 +188,7 @@ h2 {
 	display: block;
 }
 
-/* NAVIGATION STYLES */
-
+/* ======= NAVIGATION STYLES ======= */
 
 .nav-btn,
 .nav-btn:link,
@@ -180,7 +200,6 @@ h2 {
 	top: 35px;	
 	right: 5%;
 	background: #333 url('../images/nav-icon.svg') no-repeat center center;
-	/* background-color || background-image || background-repeat || background-position*/
 }
 
 .nav-btn:hover,
@@ -201,7 +220,6 @@ h2 {
 	text-decoration: none;
 	background-color: #fff;
 	border-top: 1px solid #fff;
-	/* border-width || border-style || border-color */
 }
 
 .nav a:hover,
@@ -213,30 +231,34 @@ h2 {
 .nav-btn[data-state="active"] {
 	background: #fff url('../images/nav-close.svg') no-repeat center center;
 }
-	.nav-top{
-		max-height: 0;
-		-moz-transition: all 250ms linear;
-		-o-transition: all 250ms linear;
-		-webkit-transition: all 250ms linear;
-		transition: all 250ms linear;
-		overflow:hidden;
-	}
 
-	.nav-top[data-state="expanded"]{
-		max-height: 10rem;
-		margin-top:3rem;
-		margin-bottom: -4rem;
+.nav-top{
+	max-height: 0;
+	-moz-transition: all 250ms linear;
+	-o-transition: all 250ms linear;
+	-webkit-transition: all 250ms linear;
+	transition: all 250ms linear;
+	overflow:hidden;
+}
 
-	}
-	
-	.sun-section{
-		margin-top: 5rem;
-	}
+.nav-top[data-state="expanded"]{
+	max-height: 10rem;
+	margin-top:3rem;
+	margin-bottom: -4rem;
+
+}
+
+.sun-section{
+	margin-top: 5rem;
+}
+
+/* ======= RESPONSIVE - TABLET SCREEN ======= */
 
 @media only screen and (min-width:35em) {
 	.sun-section{
 		margin-top: 5rem;
 	}
+	
 	.nav {
 		margin-right: 3%;
 		float:right;
@@ -272,35 +294,13 @@ h2 {
 
 }
 
-	.nav a:hover,
-	.nav a:focus,
-	.nav a:active{
-		background-color: #536988;
-	}
-	
-	header {
-		height: 100%;
-	}
-	
-	.image-list{
-		overflow: auto;
-	}
 
-	.image-list li{
-		margin-left: 4%;
-		width: 45%;
-		float: left;
-	}	
-
+/* ======= RESPONSIVE - DESKTOP SCREEN ======= */
 
 @media only screen and (min-width:45em) {
-	
-	.sun-section{
-		margin-top: 1rem;
+	header {
+		overflow:auto;
 	}
-	
-	
-	/* NAVIGATION */
 	
 	.nav {
 		background-color: #fff;
@@ -323,12 +323,10 @@ h2 {
 	.nav-top {
 		text-align:center;
 	}
-	
-	/* pushes things down from navigation. */
-	
-	header {
-		overflow:auto;
+	.sun-section{
+		margin-top: 1rem;
 	}
+		
 	
 	.image-list li{
 		width:28.33%;
@@ -350,7 +348,3 @@ h2 {
 	}
 }
 	
-
-
-
-
