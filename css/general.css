@@ -37,6 +37,9 @@ p {
 	line-height: 150%;
 }
 
+ul{
+		list-style-type: none;
+	}
 
 /* ======= HEADER SECTION ======= */
 
@@ -76,7 +79,7 @@ section {
 .about{
 	text-align:center;
 	background-color:#363636;
-	padding: 4rem 0%;
+	padding: 6rem 0%;
 }
 
 .about h2,p{
@@ -109,7 +112,8 @@ section {
 
 .services{
 	background-color:#EBEBDB;
-	padding-top: 3rem;
+	padding-top: 6rem;
+	padding-bottom: 3rem;
 }
 
 .box{
@@ -156,34 +160,6 @@ section {
 	white-space: nowrap;
 	overflow: hidden;
 	display: block;
-}
-
-/*SIDEPAN*/
-.sidepan img {
-  margin-left: 0px;
-  -webkit-transition: margin 1s ease;
-     -moz-transition: margin 1s ease;
-       -o-transition: margin 1s ease;
-      -ms-transition: margin 1s ease;
-          transition: margin 1s ease;
-}
- 
-.sidepan img:hover {
-  margin-left: -200px;
-}
-
-/*FOCUS*/
-.focus {
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
- 
-.focus:hover {
-  border: 70px solid #000;
-  border-radius: 50%;
 }
 
 /*BLUR*/
@@ -321,6 +297,7 @@ section {
 	
 	.nav {
 		margin-right: 3%;
+		margin-top:0.75rem;
 		float:right;
 		overflow:auto;
 	}
