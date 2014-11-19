@@ -61,8 +61,8 @@ section {
 	color:#FFFFFF;
 }
 
-.sun-section {
-	background: transparent url(../images/mars-pano.jpg) no-repeat center top;
+.banner-section {
+	background: transparent url(../images/mockup-pano.jpg) no-repeat center top;
 	background-size: cover;
 }
 	
@@ -125,8 +125,21 @@ ul {
 
 /* ======= SERVICES SECTION ======= */
 
+.services{
+	background-color:#EBEBDB;
+	padding-top: 3rem;
+}
+
+.box{
+	margin-top: 2rem;
+}
+
 .box img{
 	width: 30%;
+}
+
+.services p{
+	text-align:center;
 }
 
 /* ======= FOOTER SECTION ======= */
@@ -248,14 +261,31 @@ ul {
 
 }
 
-.sun-section{
+.banner-section{
 	margin-top: 5rem;
 }
 
+
+.big_box {
+		text-align:center;
+		padding: 4rem 0%;
+		background-color:#EBEBDB;
+	}
+	
+	.box { 
+		width: 100%; 
+		display:inline-block;
+	}
+		
+	.clear { 
+		clear: both ;
+	}
+	
+	
 /* ======= RESPONSIVE - TABLET SCREEN ======= */
 
 @media only screen and (min-width:35em) {
-	.sun-section{
+	.banner-section{
 		margin-top: 5rem;
 	}
 	
@@ -291,6 +321,21 @@ ul {
 		width: 50%;
 		margin: 0 0 2rem 1rem;
 	}
+	
+	.big_box {
+		text-align:center;
+		padding: 4rem 0%;
+		background-color:#EBEBDB;
+	}
+	
+	.box { 
+		width: 100%; 
+		display:inline-block;
+	}
+		
+	.clear { 
+		clear: both ;
+	}
 
 }
 
@@ -323,7 +368,7 @@ ul {
 	.nav-top {
 		text-align:center;
 	}
-	.sun-section{
+	.banner-section{
 		margin-top: 1rem;
 	}
 		
