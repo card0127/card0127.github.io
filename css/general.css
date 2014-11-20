@@ -132,15 +132,16 @@ section {
 
 .footer {
 	background-color:#333;
-	padding-bottom:2rem;
 	color: #fff;
 	text-align:center;
 }
-.copyright {
-	text-align: center;
-	margin-top: 1rem;
-	font-size: 0.75rem;
-	font-weight: 200;
+
+.social{
+	padding: 2rem 0;
+}
+
+.social img{
+	width: 50px;
 }
 
 #search {
@@ -172,6 +173,25 @@ section {
     }
 	
 	
+.banner-section{
+	margin-top: 5rem;
+}
+
+
+.big_box {
+	text-align:center;
+	padding: 4rem 0%;
+	background-color:#DCDCDC;
+}
+	
+.box { 
+	width: 100%; 
+	display:inline-block;
+}
+	
+.clear { 
+	clear: both ;
+}
 
 /* ======= TRANSITIONS ======= */
 
@@ -189,6 +209,7 @@ section {
 	overflow: hidden;
 	display: block;
 }
+
 
 /* ======= NAVIGATION STYLES ======= */
 
@@ -250,37 +271,6 @@ section {
 
 }
 
-.banner-section{
-	margin-top: 5rem;
-}
-
-
-.big_box {
-	text-align:center;
-	padding: 4rem 0%;
-	background-color:#DCDCDC;
-}
-	
-.box { 
-	width: 100%; 
-	display:inline-block;
-}
-	
-.clear { 
-	clear: both ;
-}
-	
-.big_foot {
-	padding: 4rem 0%;
-	background-color:#333;
-}
-	
-.foot { 
-	width: 100%; 
-	display:inline-block;
-	margin-bottom:1rem;
-}
-	
 /* ======= RESPONSIVE - TABLET SCREEN ======= */
 
 @media only screen and (min-width:35em) {
@@ -336,20 +326,8 @@ section {
 	.clear { 
 		clear: both ;
 	}
-
-	.big_foot {
-		padding: 4rem 0%;
-		background-color:#333;
-	}
 	
-	.foot { 
-		width: 100%; 
-		display:inline-block;
-	}
-		
-	.copyright {
-		margin-right: -5%;
-}
+	
 }
 
 
@@ -405,34 +383,6 @@ section {
 		width: 30%;
 	}
 	
-	.big_foot {
-		text-align:left;
-		padding: 4rem 0%;
-		background-color:#333;
-	}
-	
-	.foot { 
-		width: 45%; 
-		display:inline-block;
-	}
-	
-	.address{
-		text-align:left;
-	}
-	
-	.address h2{
-		text-align:left;
-		color:#CFCFCF;
-		padding-left:15%;
-	}
-	
-	.search{
-		text-align:right;
-	}
-	
-	.copyright {
-		margin-right: -5%;
-}
 		
 	.clear { 
 		clear: both ;
