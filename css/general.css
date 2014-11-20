@@ -167,11 +167,11 @@ section {
     -moz-transition: all 0.7s ease 0s;
     -o-transition: all 0.7s ease 0s;
     transition: all 0.7s ease 0s;
-    }
+}
 
 #search input[type="text"]:focus {
     width: 200px;
-    }
+}
 	
 	
 .banner-section{
@@ -269,7 +269,6 @@ section {
 	max-height: 10rem;
 	margin-top:4rem;
 	margin-bottom: -4rem;
-
 }
 
 /* ======= RESPONSIVE - TABLET SCREEN ======= */
@@ -378,6 +377,7 @@ section {
 		clear: both ;
 	}
 }
+	
 	
 @media only screen and (min-width:85em) {
 	.about{
