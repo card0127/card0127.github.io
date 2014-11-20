@@ -134,6 +134,7 @@ section {
 	background-color:#333;
 	color: #fff;
 	text-align:center;
+	padding-bottom: 3rem;
 }
 
 .social{
@@ -144,8 +145,8 @@ section {
 	width: 50px;
 }
 
-#search {
-
+.search{
+	padding-top:2rem;
 }
 
 #search input[type="text"] {
@@ -312,17 +313,6 @@ section {
 		margin: 0 0 2rem 1rem;
 	}
 	
-	.big_box {
-		text-align:center;
-		padding: 4rem 0%;
-		background-color:#DCDCDC;
-	}
-	
-	.box { 
-		width: 100%; 
-		display:inline-block;
-	}
-		
 	.clear { 
 		clear: both ;
 	}
@@ -363,9 +353,9 @@ section {
 		margin-top: 1rem;
 	}
 		
-	
-	.image-list li{
-		width:28.33%;
+	.portfolio{
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 	
 	.big_box {
@@ -389,3 +379,21 @@ section {
 	}
 }
 	
+@media only screen and (min-width:85em) {
+	.about{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	
+	.portfolio{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	
+	.services{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	
+	
+}

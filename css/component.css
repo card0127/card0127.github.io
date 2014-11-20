@@ -110,21 +110,21 @@
 
 .og-details h3 {
 	font-weight: 300;
-	font-size: 52px;
+	font-size: 2rem;
 	padding: 40px 0 10px;
 	margin-bottom: 10px;
 }
 
 .og-details p {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 22px;
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.5rem;
 	color: #999;
 }
 
 .og-details a {
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 1rem;
 	color: #333;
 	text-transform: uppercase;
 	letter-spacing: 2px;
