@@ -16,6 +16,10 @@ $win.on('scroll', function () {
 
 $(".nav").localScroll();
 
+$(".nav-arrow").localScroll();
+
+$(".nav-arrow-up").localScroll();
+
 $servicesSection.waypoint(function(){
 $(".icon-branding").addClass("hatch");
 }, { offset: '60%'} );

@@ -149,6 +149,11 @@ section {
 	padding-top:2rem;
 }
 
+.footer h2{
+	color:#E7E7E7;
+	margin-top:2rem;
+}
+
 #search input[type="text"] {
     background: url(search-white.png) no-repeat 10px 6px #fcfcfc;
     border: 1px solid #d1d1d1;
@@ -213,7 +218,6 @@ section {
 
 
 /* ======= NAVIGATION STYLES ======= */
-
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
@@ -269,6 +273,20 @@ section {
 	max-height: 10rem;
 	margin-top:4rem;
 	margin-bottom: -4rem;
+}
+
+.nav-arrow{
+	width: 50px;
+	margin-top:3rem;
+	margin-bottom: -3rem;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.nav-arrow-up{
+	width: 50px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 /* ======= RESPONSIVE - TABLET SCREEN ======= */
