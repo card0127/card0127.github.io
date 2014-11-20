@@ -266,7 +266,7 @@ section {
 
 .nav-top[data-state="expanded"]{
 	max-height: 10rem;
-	margin-top:3rem;
+	margin-top:4rem;
 	margin-bottom: -4rem;
 
 }
