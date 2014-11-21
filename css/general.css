@@ -74,6 +74,7 @@ section {
 	text-align:center;
 }
 
+
 /* ======= ABOUT SECTION ======= */
 
 .about{
@@ -216,6 +217,9 @@ section {
 	display: block;
 }
 
+.fade-banner p {
+	animation-delay: 500ms;
+}
 
 /* ======= NAVIGATION STYLES ======= */
 .nav-btn,

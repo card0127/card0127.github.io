@@ -21,7 +21,7 @@ $(".nav-arrow").localScroll();
 $(".nav-arrow-up").localScroll();
 
 $servicesSection.waypoint(function(){
-$(".icon-branding").addClass("hatch");
+$(".icon-branding").addClass("fadeIn");
 }, { offset: '60%'} );
 
 $servicesSection.waypoint(function(){
@@ -29,7 +29,7 @@ $(".slide-services").addClass("fadeIn");
 }, { offset: '80%'} );
 
 $portfolioSection.waypoint(function(){
-$(".portfolio-h2").addClass("fadeIn");
+$(".portfolio-animation").addClass("fadeIn");
 }, { offset: '80%'} );
 
 $mainSection.waypoint(function(){

@@ -22,6 +22,40 @@ slideDown
 */
 
 
+.delayhalf{
+	-webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s;
+}
+
+.delayone{
+	-webkit-animation-delay: 1s; 
+    animation-delay: 1s;
+}
+
+.delayonehalf{
+	-webkit-animation-delay: 1.5s; 
+    animation-delay: 1.5s;
+}
+
+.delaytwo{
+	-webkit-animation-delay: 2s; 
+    animation-delay: 2s;
+}
+
+.delaytwohalf{
+	-webkit-animation-delay: 2.5s; 
+    animation-delay: 2.5s;
+}
+
+.delaytree{
+	-webkit-animation-delay: 3s; 
+    animation-delay: 3s;
+}
+
+
+
+
+
 .slideDown{
 	animation-name: slideDown;
 	-webkit-animation-name: slideDown;	
@@ -478,6 +512,8 @@ fadeIn
 		opacity: 1;	
 	}		
 }
+
+
 
 /*
 ==============================================
