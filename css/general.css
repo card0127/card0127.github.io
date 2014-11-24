@@ -23,7 +23,7 @@ html, body{
 }
 
 img {
-	width: 100%;
+	width: auto;
 }
 
 h2{
@@ -48,7 +48,7 @@ header {
 	height: 100%;
 }
 
-.logo {
+.logo img {
 	margin-left: 5%;
 	margin-top: 1.5rem;
 	float:left;
