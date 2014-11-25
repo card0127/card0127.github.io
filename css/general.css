@@ -79,7 +79,7 @@ section {
 
 .about{
 	text-align:center;
-	background-color:#D4D4D4;
+	background-image: url(../images/halftone.png); 
 	padding: 6rem 0%;
 }
 
@@ -101,6 +101,8 @@ section {
 
 .portfolio{
 	padding: 4rem 0%;
+	background-image: url(../images/light.png); 
+
 }
 
 .portfolio p{
@@ -112,13 +114,14 @@ section {
 /* ======= SERVICES SECTION ======= */
 
 .services{
-	background-color:#DCDCDC;
+	background-image: url(../images/paper_texture.png); 
 	padding-top: 6rem;
 	padding-bottom: 3rem;
 }
 
 .box{
 	margin-top: 2rem;
+	background-image: url(../images/paper_texture.png);
 }
 
 .box img{
@@ -132,7 +135,7 @@ section {
 /* ======= FOOTER SECTION ======= */
 
 .footer {
-	background-color:#333;
+	background-image: url(../images/footer.png); 
 	color: #fff;
 	text-align:center;
 	padding-bottom: 3rem;
@@ -186,6 +189,7 @@ section {
 
 
 .big_box {
+	background-image: url(../images/paper_texture.png);
 	text-align:center;
 	padding: 4rem 0%;
 	background-color:#DCDCDC;
