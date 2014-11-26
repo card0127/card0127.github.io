@@ -205,6 +205,27 @@ section {
 	clear: both ;
 }
 
+/* ======= GRID ======= */
+
+.unit {
+  display: inline-block;
+}
+
+.unit-left {
+  visibility: visible;
+  width: 50%;
+  float: left;
+  height: 12rem;
+}
+
+.unit-right {
+  visibility: visible;
+  width: 50%;
+  float:right;
+  height: 12rem;
+}
+
+
 /* ======= TRANSITIONS ======= */
 
 .ease-all{
