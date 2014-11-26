@@ -28,7 +28,7 @@ img {
 
 h2{
 	text-align:center;
-	color: #353535;
+	color: #F49C28;
 }
 
 p {
@@ -72,6 +72,7 @@ section {
 .sun {
 	width: 100px;
 	text-align:center;
+	padding-bottom: 2rem;
 }
 
 
@@ -90,7 +91,7 @@ section {
 }
 
 .about h2{
-	color: #313131;
+	color: #F49C28;
 }
 
 .about p{
@@ -241,7 +242,7 @@ section {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color: #536988;
+	background-color: #F49C28;
 }
 
 .nav a, 
@@ -250,8 +251,8 @@ section {
 	display: block;
 	padding: 1rem;
 	text-align:center;
-	color: #5A69CD;
-	font-weight: 300;
+	color: #333;
+	font-weight: 400;
 	font-size: 0.9rem;
 	text-decoration: none;
 	background-color: #fff;
@@ -261,7 +262,9 @@ section {
 .nav a:hover,
 .nav a:focus,
 .nav a:active{
-	background-color: #536988;
+	background-color: #F49C28;
+	border-radius: 5px;
+	color: #fff;
 }
 
 .nav-btn[data-state="active"] {

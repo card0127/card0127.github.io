@@ -21,21 +21,21 @@ $(".nav-arrow").localScroll();
 $(".nav-arrow-up").localScroll();
 
 $servicesSection.waypoint(function(){
-$(".icon-branding").addClass("fadeIn");
+$(".icon-branding").addClass("slideUp");
 }, { offset: '60%'} );
 
 $servicesSection.waypoint(function(){
-$(".slide-services").addClass("fadeIn");
+$(".slide-services").addClass("slideUp");
 }, { offset: '80%'} );
 
 $portfolioSection.waypoint(function(){
-$(".portfolio-animation").addClass("fadeIn");
+$(".portfolio-animation").addClass("slideUp");
 }, { offset: '80%'} );
 
 $mainSection.waypoint(function(){
-$(".fade-banner").addClass("fadeIn");
+$(".fade-banner").addClass("slideUp");
 }, { offset: '10%'} );
 
 $aboutSection.waypoint(function(){
-$(".fade-about").addClass("fadeIn");
+$(".fade-about").addClass("slideUp");
 }, { offset: '60%'} );
