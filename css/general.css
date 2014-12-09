@@ -330,7 +330,7 @@ section {
 }
 
 .nav-arrow{
-	width: 30px;
+	width: 50px;
 	margin-top:3rem;
 	margin-bottom: -3rem;
 	margin-left:auto;
@@ -338,7 +338,7 @@ section {
 }
 
 .nav-arrow-up{
-	width: 30px;
+	width: 15%;
 	margin-left:auto;
 	margin-right:auto;
 }
