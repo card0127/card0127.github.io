@@ -40,15 +40,6 @@ p {
 ul{
 		list-style-type: none;
 	}
-	
-	.shadow {
-   -moz-box-shadow:    inset  0  5px 5px -5px #696868, 
-                        inset  0 -5px 5px -5px #696868;
-    -webkit-box-shadow: inset  0  5px 5px -5px #696868, 
-                        inset  0 -5px 5px -5px #696868;
-     box-shadow:        inset  0  5px 5px -5px #696868, 
-                        inset  0 -5px 5px -5px #696868;
-}
 
 .transform{
 	text-transform: uppercase;
@@ -65,7 +56,7 @@ header {
 	margin-left: 5%;
 	margin-top: 1.5rem;
 	float:left;
-	width: 200px;
+	width: 280px;
 	position: absolute;
 }
 
@@ -93,7 +84,7 @@ section {
 
 .about{
 	text-align:center;
-	background-image: url(../images/halftone.png); 
+	background-image:url(../images/background-orange.jpg);	
 	padding: 6rem 0%;
 }
 
@@ -104,19 +95,23 @@ section {
 }
 
 .about h2{
-	color: #F49C28;
+	color: #fff;
 }
 
 .about p{
-	color:#696969;
+	color:#14404F;
 }
 		
 /* ======= PORTFOLIO SECTION ======= */
 
 .portfolio{
 	padding: 4rem 0%;
-	background-image: url(../images/light.png); 
+	background-image: url(../images/halftone.png); 
 
+}
+
+.portfolio h2{
+	color: #C57537;
 }
 
 .portfolio p{
@@ -128,28 +123,33 @@ section {
 /* ======= SERVICES SECTION ======= */
 
 .services{
-	background-image: url(../images/paper_texture.png); 
+	background-image:url(../images/background-green.jpg);	
 	padding-top: 6rem;
 	padding-bottom: 3rem;
 }
 
 .box{
 	margin-top: 2rem;
-	background-image: url(../images/paper_texture.png);
+	background-color: rgba(211,217,197,0);	
 }
 
 .box img{
 	width: 20%;
 }
 
+.services h2{
+	color: #fff;
+}
+
 .services p{
 	text-align:center;
+	color: #304269;
 }
 
 /* ======= FOOTER SECTION ======= */
 
 .footer {
-	background-image: url(../images/footer.png); 
+	background-color: rgba(44,52,59,1); 
 	color: #fff;
 	text-align:center;
 	padding-bottom: 3rem;
@@ -207,10 +207,9 @@ section {
 
 
 .big_box {
-	background-image: url(../images/paper_texture.png);
 	text-align:center;
 	padding: 4rem 0%;
-	background-color:#DCDCDC;
+	background-color: rgba(211,217,197,0);	
 }
 	
 .box { 
@@ -294,7 +293,7 @@ section {
 	display: block;
 	padding: 1rem;
 	text-align:center;
-	color: #333;
+	color: #008777;
 	font-weight: 400;
 	font-size: 0.9rem;
 	text-decoration: none;
@@ -346,6 +345,7 @@ section {
 /* ======= RESPONSIVE - TABLET SCREEN ======= */
 
 @media only screen and (min-width:35em) {
+
 	.banner-section{
 		margin-top: 5rem;
 	}
@@ -394,9 +394,17 @@ section {
 
 /* ======= RESPONSIVE - DESKTOP SCREEN ======= */
 
-@media only screen and (min-width:45em) {
+@media only screen and (min-width:50em) {
 	header {
 		overflow:auto;
+	}
+	
+	.logo img {
+		margin-left: 5%;
+		margin-top: 1rem;
+		float:left;
+		width: 400px;
+		position: absolute;
 	}
 	
 	.nav {
@@ -432,7 +440,7 @@ section {
 	.big_box {
 		text-align:center;
 		padding: 4rem 0%;
-		background-color:#DCDCDC;
+	background-color: rgba(211,217,197,0);	
 	}
 	
 	.box { 
