@@ -50,6 +50,10 @@ ul{
                         inset  0 -5px 5px -5px #696868;
 }
 
+.transform{
+	text-transform: uppercase;
+}
+
 /* ======= HEADER SECTION ======= */
 
 header {
