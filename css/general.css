@@ -149,7 +149,7 @@ section {
 /* ======= FOOTER SECTION ======= */
 
 .footer {
-	background-color: rgba(44,52,59,1); 
+	background-image:url(../images/background-navy.jpg);
 	color: #fff;
 	text-align:center;
 	padding-bottom: 3rem;
