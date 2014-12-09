@@ -160,13 +160,17 @@ section {
 }
 
 .search{
-	padding-top:2rem;
+	padding-bottom:2rem;
 }
 
 .footer h2{
-	color:#E7E7E7;
 	margin-top:2rem;
 }
+
+.email{
+	color: rgba(131,176,217,1);
+}
+
 
 #search input[type="text"] {
     background: url(search-white.png) no-repeat 10px 6px #fcfcfc;
