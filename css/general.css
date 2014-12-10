@@ -1,5 +1,9 @@
 
-/* ======= COMMON CSS ======= */
+/*
+==============================================
+COMMON CSS
+==============================================
+*/
 
 html, body{
 	font-family: 'Josefin Slab', serif;
@@ -64,7 +68,14 @@ ul{
 	margin-right: auto;
 }
 
-/* ======= HEADER SECTION ======= */
+
+
+
+/*
+==============================================
+HEADER SECTION
+==============================================
+*/
 
 header {
 	padding: 1rem 0 0;
@@ -79,7 +90,14 @@ header {
 	position: absolute;
 }
 
-/* ======= BANNER SECTION ======= */
+
+
+
+/*
+==============================================
+BANNER SECTION
+==============================================
+*/
 
 section {
 	padding: 10rem 0;
@@ -99,7 +117,11 @@ section {
 }
 
 
-/* ======= ABOUT SECTION ======= */
+/*
+==============================================
+ABOUT SECTION
+==============================================
+*/
 
 .about{
 	text-align:center;
@@ -120,8 +142,16 @@ section {
 .about p{
 	color:#14404F;
 }
+	
+	
+	
+	
 		
-/* ======= PORTFOLIO SECTION ======= */
+/*
+==============================================
+PORTFOLIO SECTION
+==============================================
+*/
 
 .portfolio{
 	padding: 8rem 0%;
@@ -164,7 +194,15 @@ a {
 }
 
 
-/* ======= SERVICES SECTION ======= */
+
+
+
+
+/*
+==============================================
+SERVICES SECTION
+==============================================
+*/
 
 .services{
 	background-image:url(../images/background-green.jpg);	
@@ -192,7 +230,15 @@ a {
 	color: #304269;
 }
 
-/* ======= FOOTER SECTION ======= */
+
+
+
+
+/*
+==============================================
+FOOTER SECTION
+==============================================
+*/
 
 .footer {
 	background-image:url(../images/background-navy.jpg);
@@ -274,28 +320,16 @@ a {
 	margin-bottom: 1rem;
 }
 
-/* ======= GRID ======= */
-
-.unit {
-  display: inline-block;
-}
-
-.unit-left {
-  visibility: visible;
-  width: 50%;
-  float: left;
-  height: 12rem;
-}
-
-.unit-right {
-  visibility: visible;
-  width: 50%;
-  float:right;
-  height: 12rem;
-}
 
 
-/* ======= TRANSITIONS ======= */
+
+
+
+/*
+==============================================
+TRANSITIONS
+==============================================
+*/
 
 .ease-all{
 	-webkit-transition: all 350ms ease-in-out;
@@ -306,18 +340,18 @@ a {
 }
 
 .grow {
-  display: inline-block;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	display: inline-block;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 .grow:hover, .grow:focus, .grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .hide-text {
@@ -331,7 +365,16 @@ a {
 	animation-delay: 500ms;
 }
 
-/* ======= NAVIGATION STYLES ======= */
+
+
+
+
+/*
+==============================================
+NAVIGATION STYLES
+==============================================
+*/
+
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
@@ -405,7 +448,16 @@ a {
 	margin-right:auto;
 }
 
-/* ======= RESPONSIVE - TABLET SCREEN ======= */
+
+
+
+
+
+/*
+==============================================
+RESPONSIVE - TABLET SCREEN
+==============================================
+*/
 
 @media only screen and (min-width:37em) {
 	
@@ -453,7 +505,17 @@ a {
 }
 
 
-/* ======= RESPONSIVE - DESKTOP SCREEN ======= */
+
+
+
+
+
+/*
+==============================================
+RESPONSIVE - DESKTOP SCREEN
+==============================================
+*/
+
 
 @media only screen and (min-width:50em) {
 	header {
@@ -521,6 +583,17 @@ a {
 }
 	
 	
+	
+	
+	
+	
+/*
+==============================================
+RESPONSIVE - WIDE DESKTOP SCREEN
+==============================================
+*/
+
+	
 @media only screen and (min-width:85em) {
 	.about{
 		padding-left: 10%;
@@ -537,5 +610,30 @@ a {
 		padding-right: 10%;
 	}
 	
-	
 }
+
+
+/*
+==============================================
+404 PAGE
+==============================================
+*/
+
+.error{
+	padding-top:8rem;
+	padding-bottom:8rem;
+	text-align:center;
+	background-image:url(../images/background-green.jpg);
+}
+
+.error h1{
+	color:#535229;
+}
+
+.error p{
+	font-family: 'Life Savers', cursive;	
+	color:#2E5A76;
+	text-decoration:none;
+}
+
+
