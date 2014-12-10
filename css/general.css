@@ -407,7 +407,7 @@ a {
 
 /* ======= RESPONSIVE - TABLET SCREEN ======= */
 
-@media only screen and (min-width:35em) {
+@media only screen and (min-width:37em) {
 	
 	.banner-section{
 		margin-top: 5rem;
@@ -443,11 +443,10 @@ a {
 	.nav a:link,
 	.nav a:visited{
 		display: block;
-		padding: 1rem;
+		padding-left: 1rem;
+		padding-right:1rem;
 		text-align:center;
-		color: #.feature img{
 		float:right;
-		width: 50%;
 		margin: 0 0 2rem 1rem;
 	}
 	
@@ -459,10 +458,7 @@ a {
 @media only screen and (min-width:50em) {
 	header {
 		overflow:auto;
-	}
-	
-	.logo{
-		margin-bottom:1rem;
+		margin-bottom:-1rem;
 	}
 	
 	.logo img {
