@@ -30,7 +30,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #294B64;
+	border-bottom-color: #1B3345;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -38,7 +38,8 @@
 
 .og-expander {
 	position: absolute;
-	background: #294B64;
+	background-image:url(../images/concrete_wall.png);
+	background-repeat: repeat;
 	top: auto;
 	left: 0;
 	width: 100%;
