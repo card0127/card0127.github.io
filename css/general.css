@@ -502,6 +502,11 @@ RESPONSIVE - TABLET SCREEN
 		margin: 0 0 2rem 1rem;
 	}
 	
+	.portfolio{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	
 }
 
 
@@ -517,7 +522,7 @@ RESPONSIVE - DESKTOP SCREEN
 */
 
 
-@media only screen and (min-width:50em) {
+@media only screen and (min-width:49em) {
 	header {
 		overflow:auto;
 		margin-bottom:-1rem;
