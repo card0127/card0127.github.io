@@ -214,8 +214,8 @@ SERVICES SECTION
 }
 
 .box{
-	margin-top: 2rem;
 	background-color: rgba(211,217,197,0);	
+	vertical-align: text-top;
 }
 
 .box img{
