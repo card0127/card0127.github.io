@@ -159,10 +159,6 @@ section {
     clear: both;
 }
 
-.clearfix {
-    *zoom: 1;
-}
-
 a {
 	text-decoration: none;
 }
@@ -453,10 +449,6 @@ a {
 		float:right;
 		width: 50%;
 		margin: 0 0 2rem 1rem;
-	}
-	
-	.clear { 
-		clear: both ;
 	}
 	
 }
