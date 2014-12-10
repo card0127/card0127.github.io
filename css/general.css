@@ -64,7 +64,8 @@ ul{
 	width: 100px;
 	padding-top: 0.5rem;
 	padding-bottom: 1rem;
-	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* ======= HEADER SECTION ======= */
