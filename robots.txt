@@ -1,0 +1,12 @@
+# Make changes for all web spiders
+User-agent: *
+Disallow: / 
+
+# Tell "WebSpider" where it can't go
+User-agent: WebSpider
+Disallow: /marketing
+Disallow: /sales
+
+# Allow all other robots to browse everywhere
+User-agent: *
+Disallow:

@@ -1,0 +1,16 @@
+/* TEAM */
+Developer/Designer: Pedro Santos
+Site: http://www.pedrosantos.info
+Twitter: @pmcdsl
+Location: Ottawa, Canada
+
+						
+/* THANKS */							
+To all the awesome people who helped me.
+
+                            
+/* SITE */                         
+Last update: 2014/11/11                           
+Standards: HTML5, CSS3                         
+Components: Modernizr, jQuery, etc.                        
+Software: Adobe, Sublime Text 2
