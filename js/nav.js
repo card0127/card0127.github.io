@@ -17,3 +17,8 @@
 		}
 	});
 	
+	
+	$(".nav-top a").on('click', function(e){
+		navTop.setAttribute('data-state', 'collapsed');
+		  $(".nav-btn").attr('data-state', 'inactive');
+	});
